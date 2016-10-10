@@ -29,6 +29,7 @@ EOT
   }
 }
 EOT
+  sed -i 's/ENABLED=false/ENABLED=true/' /etc/default/facette
   service facette restart
 }
 
